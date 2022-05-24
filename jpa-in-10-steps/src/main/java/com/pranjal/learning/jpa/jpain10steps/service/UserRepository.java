@@ -1,0 +1,9 @@
+package com.pranjal.learning.jpa.jpain10steps.service;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.pranjal.learning.jpa.jpain10steps.entity.Person;
+
+public interface UserRepository extends JpaRepository<Person, Long> {
+
+}
